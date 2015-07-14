@@ -7,7 +7,9 @@ var actionSchema=new schema({
 	lengthS:{type:Number },
 	Way:{type:String},
 	Water:{type:String},
-	HelpWay:{type:String}
+	HelpWay:{type:String},
+	southwest:{type:Number},
+	northeast:{type:Number}
 	
 },
 	{collection:'section'}
